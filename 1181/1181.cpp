@@ -28,18 +28,20 @@ int main(void)
 	for (int i = 0; i < n; i++)
 	{
 		cin >> a[i];
-
-		sort(a, a + n, compare);
-		for (int i = 0; i < n; i++)
+	}
+	
+	sort(a, a + n, compare);
+	cout << endl;
+	for (int i = 0; i < n; i++)
+	{
+		if (i > 0 && a[i] == a[i - 1])
 		{
-			if (i > 0 && a[i] == a[i - 1])
-			{
-				continue;
-			}
-			else
-			{
-				cout << a[i] << endl;
-			}
+			continue;
+		}
+		else
+		{
+			cout << a[i] << endl;
 		}
 	}
+	
 }

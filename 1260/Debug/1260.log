@@ -1,0 +1,4 @@
+﻿  1260.cpp
+C:\Users\LG\Documents\GitHub\BaekJoon\1260\1260.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LG\Documents\GitHub\BaekJoon\1260\1260.cpp(38): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  1260.vcxproj -> C:\Users\LG\Documents\GitHub\BaekJoon\1260\Debug\1260.exe

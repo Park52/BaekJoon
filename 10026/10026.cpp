@@ -1,5 +1,5 @@
 ﻿#define NON_VISITED		false
-#define VISITED		true
+#define VISITED			true
 
 #include <iostream>
 #include <queue>
@@ -26,13 +26,13 @@ void DFS(int StartY, int StartX)
 
 		if (ny >= 0 && ny < N && nx >= 0 && nx < N)
 		{
-			if (NON_VISITED == bVisited[ny][nx] && cMap[ny][nx] == cMap[StartY][StartX])
+			if ( NON_VISITED == bVisited[ny][nx] && 
+				 cMap[ny][nx] == cMap[StartY][StartX])
 			{
 				DFS(ny, nx);
 			}
 		}
 	}
-
 
 }
 
